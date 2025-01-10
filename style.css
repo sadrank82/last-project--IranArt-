@@ -1,103 +1,105 @@
-
-body{
-    font-family:"poppins" , "sans-serif";
-}
-header{
-    background-image:linear-gradient(45deg, #e9cff2 ,#8d63a1 );
+body {
+    font-family: "poppins", "sans-serif";
 }
 
-.nav-link{
-   color:#400245 !important;
+header {
+    background-image: linear-gradient(45deg, #e9cff2, #8d63a1);
+}
+
+.nav-link {
+    color: #400245 !important;
 }
 
 form {
-
-    width: 900px;
+    
+    width: 400px;
     height: 40px;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
-    align-items:center;
-  }
+    align-items: center;
+}
 
- 
-.btn-outline-primary{
+
+
+
+
+.btn-outline-primary {
     border-radius: 40px;
-   
+
 }
 
 nav ul ul {
-    display:none;
+    display: none;
 }
 
-nav ul li:hover>ul{
-    display:block;
+nav ul li:hover>ul {
+    display: block;
 }
 
-.card{
+.card {
     background: #f9effc;
-    
-}
-  
 
-.btn-card{
+}
+
+
+.btn-card {
     background-color: #52439A;
-    color:#f9effc
+    color: #f9effc
 }
 
-.custom-line{
+.custom-line {
     border: none;
-    height: 4px; 
-    background-color: #6a19cc; 
+    height: 4px;
+    background-color: #6a19cc;
     margin: 3px 0;
 }
 
-h3{ 
+h3 {
     text-decoration: underline;
     line-height: 2.5;
 }
 
-h4{
-    line-height: 2.5; 
-    
+h4 {
+    line-height: 2.5;
+
 }
 
-h5{
-    display:inline-flex
-    
+h5 {
+    display: inline-flex
 }
 
-.form-control9{
+.form-control9 {
     height: 200px;
 }
 
-a{
-text-decoration: none ;
-color:#000000;
+a {
+    text-decoration: none;
+    color: #000000;
 }
 
 
-.text{
-   text-decoration:none; 
+.text {
+    text-decoration: none;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 20cap;
 }
 
 
-.comment{
+.comment {
     display: flex;
-  justify-content: space-between;
-  }
+    justify-content: space-between;
+}
 
-.input-group-text{
+.input-group-text {
     color: #f8f3fe;
     background-color: #8d63a1;
 }
 
 
-.social-media-icon a{
+.social-media-icon a {
     display: inline-flex;
     color: #b15bd3;
     justify-content: center;
@@ -110,4 +112,23 @@ color:#000000;
     transition: 0.3s eas;
 }
 
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.button2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
